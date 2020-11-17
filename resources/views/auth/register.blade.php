@@ -3,16 +3,16 @@
 @section('bread_crumb')
 <ul class="breadcrumb-list">
   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-  <li class="breadcrumb-item active">Login</li>
+  <li class="breadcrumb-item active">Register</li>
 </ul>
 @endsection
 @section('content')
 <div class="content-wraper mt-95">
   <div class="container-fluid">
       <div class="row">
-          <div class="col-lg-6 offset-3 col-md-6 col-sm-12">
+          <div class="col-lg-6  col-md-6 col-sm-12">
               <div class="customer-login-register">
-                  <h3>Login</h3>
+                  <h3>Register</h3>
                   <div class="login-Register-info">
                       <form action="#"> 
                           <p class="coupon-input form-row-first">
@@ -25,9 +25,7 @@
                           </p>
                          <div class="clear"></div>
                           <p>
-                              <button value="Login" name="login" class="button-login" type="submit">Login</button>
-                              <label><input type="checkbox" value="1"><span>Remember me</span></label>
-                              <a href="#" class="lost-password">Lost your password?</a>
+                              <button class="button-login" type="submit">Register</button>
                           </p>
                       </form>
                   </div>

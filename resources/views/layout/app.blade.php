@@ -61,7 +61,7 @@
                         <li>
                           <div class="shoping-cart-image">
                             <a href="#">
-                              <img src="/assets/img/product/1.jpg" alt="" />
+                              <img src="/assets/img/small-product/1.jpg" alt="" />
                               <span class="product-quantity">1x</span>
                             </a>
                           </div>
@@ -84,7 +84,7 @@
                         <li>
                           <div class="shoping-cart-image">
                             <a href="#">
-                              <img src="/assets/img/product/2.jpg" alt="" />
+                              <img src="/assets/img/small-product/2.jpg" alt="" />
                               <span class="product-quantity">1x</span>
                             </a>
                           </div>
@@ -457,10 +457,7 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-12">
-              <ul class="breadcrumb-list">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                <li class="breadcrumb-item active">Login and Register</li>
-              </ul>
+              @yield('bread_crumb')
             </div>
           </div>
         </div>
