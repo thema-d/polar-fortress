@@ -10,9 +10,9 @@
 <div class="content-wraper mt-95">
   <div class="container-fluid">
       <div class="row">
-          <div class="col-lg-6  col-md-6 col-sm-12">
+          <div class="col-lg-6 offset-lg-3 col-md-6 col-sm-12">
               <div class="customer-login-register">
-                  <h3>Register</h3>
+                  <h3>Create an account</h3>
                   <div class="login-Register-info">
                       <form action="#"> 
                           <p class="coupon-input form-row-first">
