@@ -10,7 +10,7 @@
 <div class="content-wraper mt-95">
   <div class="container-fluid">
       <div class="row">
-          <div class="col-lg-6 offset-lg-3 col-md-6 col-sm-12">
+          <div class="col-lg-6 offset-lg-3 offset-md-2 col-md-8 col-sm-12">
               <div class="customer-login-register">
                   <h3>Create an account</h3>
                   <div class="login-Register-info">
