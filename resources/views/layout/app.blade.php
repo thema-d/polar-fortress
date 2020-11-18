@@ -151,10 +151,7 @@
                 <div class="main-menu-area">
                   <nav>
                     <ul>
-                      <li class="active">
-                        <a href="#"
-                          >Home</a>
-                      </li>
+                      <li class="active"><a href="#">Home</a></li>
                       <li><a href="#">Men</a></li>
                       <li><a href="#">Women</a></li>
                       <li><a href="#">My Cart</a></li>
@@ -197,117 +194,10 @@
                   <div class="mobile-menu">
                     <nav id="mobile-menu-active">
                       <ul>
-                        <li class="active">
-                          <a href="#">Home</a>
-                          <ul class="dropdown_menu">
-                            <li><a href="index.html">Home Page 1</a></li>
-                            <li><a href="index-2.html">Home Page 2</a></li>
-                            <li><a href="index-3.html">Home Page 3</a></li>
-                            <li><a href="index-4.html">Home Page 4</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a href="#">Features</a>
-                          <ul class="mega-menu">
-                            <li>
-                              <a href="#">Shop Page</a>
-                              <ul>
-                                <li><a href="shop.html">Shop Left</a></li>
-                                <li>
-                                  <a href="shop-right.html">Shop Right</a>
-                                </li>
-                                <li>
-                                  <a href="shop-fullwidth.html"
-                                    >Shop Full Width</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="single-product.html"
-                                    >Single Product</a
-                                  >
-                                </li>
-                              </ul>
-                            </li>
-                            <li>
-                              <a href="#">Blog Page</a>
-                              <ul>
-                                <li><a href="blog.html">Blog Left</a></li>
-                                <li>
-                                  <a href="blog-right.html">Blog Right</a>
-                                </li>
-                                <li>
-                                  <a href="blog-fullwidth.html"
-                                    >Blog Full Width</a
-                                  >
-                                </li>
-                                <li>
-                                  <a href="blog-details.html">Blog Details</a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li>
-                              <a href="#">Pages</a>
-                              <ul>
-                                <li>
-                                  <a href="my-account.html">My Account</a>
-                                </li>
-                                <li>
-                                  <a href="frequently-question.html">FAQ</a>
-                                </li>
-                                <li>
-                                  <a href="login-register.html"
-                                    >Login & Register</a
-                                  >
-                                </li>
-                                <li><a href="error404.html">Error 404</a></li>
-                              </ul>
-                            </li>
-                            <li>
-                              <a href="#">Column</a>
-                              <ul>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                                <li><a href="cart.html">Cart Page</a></li>
-                                <li><a href="wishlist.html">Wish List</a></li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a href="#">For women</a>
-                          <ul class="mega-menu mega-menu-2">
-                            <li>
-                              <a href="#">Jackets</a>
-                              <ul>
-                                <li><a href="#">Florals</a></li>
-                                <li><a href="#">Shirts</a></li>
-                                <li><a href="#">Shorts</a></li>
-                                <li><a href="#">Stripes</a></li>
-                              </ul>
-                            </li>
-                            <li>
-                              <a href="#">Jeans</a>
-                              <ul>
-                                <li><a href="#">Hoodies</a></li>
-                                <li><a href="#">Sweaters</a></li>
-                                <li><a href="#">Vests</a></li>
-                                <li><a href="#">Wedges</a></li>
-                              </ul>
-                            </li>
-                            <li>
-                              <a href="#">Men</a>
-                              <ul>
-                                <li><a href="#">Crochet</a></li>
-                                <li><a href="#">Dresses</a></li>
-                                <li><a href="#">Jeans</a></li>
-                                <li><a href="#">Trousers</a></li>
-                              </ul>
-                            </li>
-                          </ul>
-                        </li>
-                        <li><a href="shop.html">Shop</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">My Cart</a></li>
                       </ul>
                     </nav>
                   </div>
@@ -350,8 +240,7 @@
                   <div class="footer-info">
                     <p class="phone">+ (012) 800 456 789</p>
                     <p class="desc_footer">
-                      We are a team of designers and developers that create high
-                      quality Magento, Prestashop, Opencart.
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, eos.
                     </p>
                     <div class="social_follow">
                       <ul class="social-follow-list">
@@ -377,68 +266,6 @@
               </div>
               <div class="col-lg-8 col-md-12">
                 <div class="footer-info-inner">
-                  <div class="row">
-                    <div class="col-lg-2 col-md-6 col-sm-6">
-                      <div class="footer-title">
-                        <h3>Products</h3>
-                      </div>
-                      <ul>
-                        <li><a href="#">Prices drop </a></li>
-                        <li><a href="#">New products </a></li>
-                        <li><a href="#">Best sales </a></li>
-                        <li><a href="#">Stores</a></li>
-                        <li><a href="#">Login</a></li>
-                        <li><a href="#">My account</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6">
-                      <div class="footer-title">
-                        <h3>Our company</h3>
-                      </div>
-                      <ul>
-                        <li><a href="#">Delivery</a></li>
-                        <li><a href="#">Legal Notice</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Contact us </a></li>
-                        <li><a href="#">Sitemap</a></li>
-                        <li><a href="#">Stores</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-2 col-md-6 col-sm-6">
-                      <div class="footer-title">
-                        <h3>Your account</h3>
-                      </div>
-                      <ul>
-                        <li><a href="#">Addresses</a></li>
-                        <li><a href="#">Credit slips</a></li>
-                        <li><a href="#">Orders</a></li>
-                        <li><a href="#">Personal info</a></li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-5 offset-xl-1 col-md-6 col-sm-6">
-                      <div class="footer-title">
-                        <h3>Get in touch</h3>
-                      </div>
-                      <div class="block-contact-text">
-                        <p>
-                          Juta - Responsive Prestashop Theme<br />123 Main
-                          Street, Anytown, CA 12345 - USA.<br />United States
-                        </p>
-                        <p>Call us: <span>(012) 800 456 789-987 </span></p>
-                        <p>Email us: <span>demo@posthemes.com</span></p>
-                      </div>
-                      <div class="time">
-                        <h3 class="time-title">Opening time</h3>
-                        <div class="time-text">
-                          <p>
-                            Open: <span>8:00 AM</span> - Close:
-                            <span>18:00 PM</span>
-                            Saturday - Sunday: Close
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -461,160 +288,7 @@
           </div>
         </div>
       </footer>
-      <!-- footer-area start -->
-
-      <!-- Modal start-->
-      <div class="modal fade modal-wrapper" id="exampleModalCenter">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-body">
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-              <div class="modal-inner-area row">
-                <div class="col-lg-5 col-md-5 col-sm-12">
-                  <div class="single-product-tab">
-                    <div class="zoomWrapper">
-                      <div id="img-1" class="zoomWrapper single-zoom">
-                        <a href="#">
-                          <img
-                            id="zoom1"
-                            src="/assets/img/product/1.jpg"
-                            data-zoom-image="/assets/img/product/1.jpg"
-                            alt="big-1"
-                          />
-                        </a>
-                      </div>
-                      <div class="single-zoom-thumb">
-                        <ul
-                          class="s-tab-zoom single-product-active owl-carousel"
-                          id="gallery_01"
-                        >
-                          <li>
-                            <a
-                              href="#"
-                              class="elevatezoom-gallery active"
-                              data-update=""
-                              data-image="img/product/1.jpg"
-                              data-zoom-image="/assets/img/product/1.jpg"
-                              ><img src="/assets/img/product/1.jpg" alt="zo-th-1"
-                            /></a>
-                          </li>
-                          <li class="">
-                            <a
-                              href="#"
-                              class="elevatezoom-gallery"
-                              data-image="img/product/2.jpg"
-                              data-zoom-image="/assets/img/product/2.jpg"
-                              ><img src="/assets/img/product/2.jpg" alt="zo-th-2"
-                            /></a>
-                          </li>
-                          <li class="">
-                            <a
-                              href="#"
-                              class="elevatezoom-gallery"
-                              data-image="img/product/3.jpg"
-                              data-zoom-image="/assets/img/product/3.jpg"
-                              ><img src="/assets/img/product/3.jpg" alt="ex-big-3"
-                            /></a>
-                          </li>
-                          <li class="">
-                            <a
-                              href="#"
-                              class="elevatezoom-gallery"
-                              data-image="img/product/4.jpg"
-                              data-zoom-image="/assets/img/product/4.jpg"
-                              ><img src="/assets/img/product/4.jpg" alt="zo-th-4"
-                            /></a>
-                          </li>
-                          <li class="">
-                            <a
-                              href="#"
-                              class="elevatezoom-gallery"
-                              data-image="img/product/5.jpg"
-                              data-zoom-image="/assets/img/product/5.jpg"
-                              ><img src="/assets/img/product/5.jpg" alt="zo-th-5"
-                            /></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-7 col-md-7 col-sm-12">
-                  <!-- product-thumbnail-content start -->
-                  <div class="quick-view-content">
-                    <div class="product-info">
-                      <h2>Brand Name FREE RN 2018</h2>
-                      <div class="rating-box">
-                        <ul class="rating">
-                          <li><i class="fa fa-star"></i></li>
-                          <li><i class="fa fa-star"></i></li>
-                          <li><i class="fa fa-star"></i></li>
-                          <li><i class="fa fa-star"></i></li>
-                          <li><i class="fa fa-star"></i></li>
-                        </ul>
-                      </div>
-                      <div class="price-box">
-                        <span class="new-price">$225.00</span>
-                        <span class="old-price">$250.00</span>
-                      </div>
-                      <p>
-                        100% cotton double printed dress. Black and white
-                        striped top and orange high waisted skater skirt bottom.
-                      </p>
-                      <div class="modal-size">
-                        <h4>Size</h4>
-                        <select>
-                          <option title="S" value="1">S</option>
-                          <option title="M" value="2">M</option>
-                          <option title="L" value="3">L</option>
-                        </select>
-                      </div>
-                      <div class="modal-color">
-                        <h4>Color</h4>
-                        <div class="color-list">
-                          <ul>
-                            <li><a href="#" class="orange active"></a></li>
-                            <li><a href="#" class="paste"></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="quick-add-to-cart">
-                        <form class="modal-cart">
-                          <div class="quantity">
-                            <label>Quantity</label>
-                            <div class="cart-plus-minus">
-                              <input
-                                class="cart-plus-minus-box"
-                                type="text"
-                                value="0"
-                              />
-                            </div>
-                          </div>
-                          <button class="add-to-cart" type="submit">
-                            Add to cart
-                          </button>
-                        </form>
-                      </div>
-                      <div class="instock">
-                        <p>In stock</p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- product-thumbnail-content end -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Modal end-->
+      <!-- footer-area end -->
     </div>
 
     <!-- jquery -->

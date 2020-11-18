@@ -2,7 +2,7 @@
 
 @section('bread_crumb')
 <ul class="breadcrumb-list">
-  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+  <li class="breadcrumb-item"><a href="#">Home</a></li>
   <li class="breadcrumb-item active">Shop</li>
 </ul>
 @endsection
@@ -66,20 +66,6 @@
                       </div>
                   </div>
                   <!-- filter-sub-area end -->
-                  <!-- filter-sub-area start -->
-                  <div class="filter-sub-area">
-                      <h5 class="filter-sub-titel">Compositions</h5>
-                      <div class="categori-checkbox">
-                          <form action="#">
-                              <ul>
-                                  <li><input type="checkbox" name="product-categori"><a href="#">Cotton (5)</a></li>
-                                  <li><input type="checkbox" name="product-categori"><a href="#">Polyester (4)</a></li>
-                                  <li><input type="checkbox" name="product-categori"><a href="#">Viscose (4)</a></li>
-                              </ul>
-                          </form>
-                      </div>
-                   </div>
-                  <!-- filter-sub-area end -->
               </div>
               <!--sidebar-categores-box end  -->
           </div>
@@ -127,7 +113,7 @@
                                       <!-- single-product-wrap start -->
                                       <div class="single-product-wrap">
                                           <div class="product-image">
-                                              <a href="single-product.html">
+                                              <a href="/single-product">
                                                   <img class="primary-image" src="/assets/img/product/3.jpg" alt="">
                                                   <img class="secondary-image" src="/assets/img/product/4.jpg" alt="">
                                               </a>
@@ -144,8 +130,8 @@
                                                           <li class="no-star"><i class="fa fa-star"></i></li>
                                                       </ul>
                                                   </div>
-                                                  <h4><a class="product_name" href="single-product.html">Air Jordan XI Retro</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
+                                                  <h4><a class="product_name" href="/single-product">Air Jordan XI Retro</a></h4>
+                                                  <div class="manufacturer"><a href="/single-product">Fashion Manufacturer</a></div>
                                                   <div class="price-box">
                                                       <span class="new-price">$225.00</span>
                                                       <span class="old-price">$250.00</span>
@@ -155,7 +141,7 @@
                                                   <ul class="add-actions-link">
                                                       <li class="add-cart"><a href="#"><i class="ion-android-cart"></i> Add to cart</a></li>
                                                       <li><a class="quick-view" data-toggle="modal" data-target="#exampleModalCenter" href="#"><i class="ion-android-open"></i></a></li>
-                                                      <li><a class="links-details" href="single-product.html"><i class="ion-clipboard"></i></a></li>
+                                                      <li><a class="links-details" href="/single-product"><i class="ion-clipboard"></i></a></li>
                                                   </ul>
                                               </div>
                                           </div>
@@ -166,7 +152,7 @@
                                       <!-- single-product-wrap start -->
                                       <div class="single-product-wrap">
                                           <div class="product-image">
-                                              <a href="single-product.html">
+                                              <a href="/single-product">
                                                   <img class="primary-image" src="/assets/img/product/9.jpg" alt="">
                                                   <img class="secondary-image" src="/assets/img/product/10.jpg" alt="">
                                               </a>
@@ -183,8 +169,8 @@
                                                           <li class="no-star"><i class="fa fa-star"></i></li>
                                                       </ul>
                                                   </div>
-                                                  <h4><a class="product_name" href="single-product.html">Brand Zoom KDX EP</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
+                                                  <h4><a class="product_name" href="/single-product">Brand Zoom KDX EP</a></h4>
+                                                  <div class="manufacturer"><a href="/single-product">Fashion Manufacturer</a></div>
                                                   <div class="price-box">
                                                       <span class="new-price">$270.00</span>
                                                       <span class="old-price">$300.00</span>
@@ -194,7 +180,7 @@
                                                   <ul class="add-actions-link">
                                                       <li class="add-cart"><a href="#"><i class="ion-android-cart"></i> Add to cart</a></li>
                                                       <li><a class="quick-view" data-toggle="modal" data-target="#exampleModalCenter" href="#"><i class="ion-android-open"></i></a></li>
-                                                      <li><a class="links-details" href="single-product.html"><i class="ion-clipboard"></i></a></li>
+                                                      <li><a class="links-details" href="/single-product"><i class="ion-clipboard"></i></a></li>
                                                   </ul>
                                               </div>
                                           </div>
@@ -205,7 +191,7 @@
                                       <!-- single-product-wrap start -->
                                       <div class="single-product-wrap">
                                           <div class="product-image">
-                                              <a href="single-product.html">
+                                              <a href="/single-product">
                                                   <img class="primary-image" src="/assets/img/product/11.jpg" alt="">
                                                   <img class="secondary-image" src="/assets/img/product/12.jpg" alt="">
                                               </a>
@@ -222,8 +208,8 @@
                                                           <li class="no-star"><i class="fa fa-star"></i></li>
                                                       </ul>
                                                   </div>
-                                                  <h4><a class="product_name" href="single-product.html">Brand FREE RN 2018</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
+                                                  <h4><a class="product_name" href="/single-product">Brand FREE RN 2018</a></h4>
+                                                  <div class="manufacturer"><a href="/single-product">Fashion Manufacturer</a></div>
                                                   <div class="price-box">
                                                       <span class="new-price">$225.00</span>
                                                       <span class="old-price">$250.00</span>
@@ -233,7 +219,7 @@
                                                   <ul class="add-actions-link">
                                                       <li class="add-cart"><a href="#"><i class="ion-android-cart"></i> Add to cart</a></li>
                                                       <li><a class="quick-view" data-toggle="modal" data-target="#exampleModalCenter" href="#"><i class="ion-android-open"></i></a></li>
-                                                      <li><a class="links-details" href="single-product.html"><i class="ion-clipboard"></i></a></li>
+                                                      <li><a class="links-details" href="/single-product"><i class="ion-clipboard"></i></a></li>
                                                   </ul>
                                               </div>
                                           </div>
@@ -244,7 +230,7 @@
                                       <!-- single-product-wrap start -->
                                       <div class="single-product-wrap">
                                           <div class="product-image">
-                                              <a href="single-product.html">
+                                              <a href="/single-product">
                                                   <img class="primary-image" src="/assets/img/product/4.jpg" alt="">
                                               </a>
                                           </div>
@@ -259,8 +245,8 @@
                                                           <li class="no-star"><i class="fa fa-star"></i></li>
                                                       </ul>
                                                   </div>
-                                                  <h4><a class="product_name" href="single-product.html">Brand FREE RN FLYKNIT</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
+                                                  <h4><a class="product_name" href="/single-product">Brand FREE RN FLYKNIT</a></h4>
+                                                  <div class="manufacturer"><a href="/single-product">Fashion Manufacturer</a></div>
                                                   <div class="price-box">
                                                       <span class="new-price">$150.00</span>
                                                       <span class="old-price">$180.00</span>
@@ -270,7 +256,7 @@
                                                   <ul class="add-actions-link">
                                                       <li class="add-cart"><a href="#"><i class="ion-android-cart"></i> Add to cart</a></li>
                                                       <li><a class="quick-view" data-toggle="modal" data-target="#exampleModalCenter" href="#"><i class="ion-android-open"></i></a></li>
-                                                      <li><a class="links-details" href="single-product.html"><i class="ion-clipboard"></i></a></li>
+                                                      <li><a class="links-details" href="/single-product"><i class="ion-clipboard"></i></a></li>
                                                   </ul>
                                               </div>
                                           </div>
@@ -281,7 +267,7 @@
                                       <!-- single-product-wrap start -->
                                       <div class="single-product-wrap">
                                           <div class="product-image">
-                                              <a href="single-product.html">
+                                              <a href="/single-product">
                                                   <img class="primary-image" src="/assets/img/product/6.jpg" alt="">
                                               </a>
                                           </div>
@@ -296,8 +282,8 @@
                                                           <li><i class="fa fa-star"></i></li>
                                                       </ul>
                                                   </div>
-                                                  <h4><a class="product_name" href="single-product.html">Brand REACT HYPERDUNK</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
+                                                  <h4><a class="product_name" href="/single-product">Brand REACT HYPERDUNK</a></h4>
+                                                  <div class="manufacturer"><a href="/single-product">Fashion Manufacturer</a></div>
                                                   <div class="price-box">
                                                       <span class="new-price">$220.00</span>
                                                       <span class="old-price">$240.00</span>
@@ -307,7 +293,7 @@
                                                   <ul class="add-actions-link">
                                                       <li class="add-cart"><a href="#"><i class="ion-android-cart"></i> Add to cart</a></li>
                                                       <li><a class="quick-view" data-toggle="modal" data-target="#exampleModalCenter" href="#"><i class="ion-android-open"></i></a></li>
-                                                      <li><a class="links-details" href="single-product.html"><i class="ion-clipboard"></i></a></li>
+                                                      <li><a class="links-details" href="/single-product"><i class="ion-clipboard"></i></a></li>
                                                   </ul>
                                               </div>
                                           </div>
@@ -318,7 +304,7 @@
                                       <!-- single-product-wrap start -->
                                       <div class="single-product-wrap">
                                           <div class="product-image">
-                                              <a href="single-product.html">
+                                              <a href="/single-product">
                                                   <img class="primary-image" src="/assets/img/product/10.jpg" alt="">
                                                   <img class="secondary-image" src="/assets/img/product/11.jpg" alt="">
                                               </a>
@@ -334,8 +320,8 @@
                                                           <li><i class="fa fa-star"></i></li>
                                                       </ul>
                                                   </div>
-                                                  <h4><a class="product_name" href="single-product.html">Brand REACT HYPERDUNK</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
+                                                  <h4><a class="product_name" href="/single-product">Brand REACT HYPERDUNK</a></h4>
+                                                  <div class="manufacturer"><a href="/single-product">Fashion Manufacturer</a></div>
                                                   <div class="price-box">
                                                       <span class="new-price">$220.00</span>
                                                       <span class="old-price">$240.00</span>
@@ -345,7 +331,7 @@
                                                   <ul class="add-actions-link">
                                                       <li class="add-cart"><a href="#"><i class="ion-android-cart"></i> Add to cart</a></li>
                                                       <li><a class="quick-view" data-toggle="modal" data-target="#exampleModalCenter" href="#"><i class="ion-android-open"></i></a></li>
-                                                      <li><a class="links-details" href="single-product.html"><i class="ion-clipboard"></i></a></li>
+                                                      <li><a class="links-details" href="/single-product"><i class="ion-clipboard"></i></a></li>
                                                   </ul>
                                               </div>
                                           </div>
@@ -356,7 +342,7 @@
                                       <!-- single-product-wrap start -->
                                       <div class="single-product-wrap">
                                           <div class="product-image">
-                                              <a href="single-product.html">
+                                              <a href="/single-product">
                                                   <img class="primary-image" src="/assets/img/product/3.jpg" alt="">
                                               </a>
                                           </div>
@@ -371,8 +357,8 @@
                                                           <li class="no-star"><i class="fa fa-star"></i></li>
                                                       </ul>
                                                   </div>
-                                                  <h4><a class="product_name" href="single-product.html">Brand FREE RN FLYKNIT</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
+                                                  <h4><a class="product_name" href="/single-product">Brand FREE RN FLYKNIT</a></h4>
+                                                  <div class="manufacturer"><a href="/single-product">Fashion Manufacturer</a></div>
                                                   <div class="price-box">
                                                       <span class="new-price">$150.00</span>
                                                       <span class="old-price">$180.00</span>
@@ -382,7 +368,7 @@
                                                   <ul class="add-actions-link">
                                                       <li class="add-cart"><a href="#"><i class="ion-android-cart"></i> Add to cart</a></li>
                                                       <li><a class="quick-view" data-toggle="modal" data-target="#exampleModalCenter" href="#"><i class="ion-android-open"></i></a></li>
-                                                      <li><a class="links-details" href="single-product.html"><i class="ion-clipboard"></i></a></li>
+                                                      <li><a class="links-details" href="/single-product"><i class="ion-clipboard"></i></a></li>
                                                   </ul>
                                               </div>
                                           </div>
@@ -393,7 +379,7 @@
                                       <!-- single-product-wrap start -->
                                       <div class="single-product-wrap">
                                           <div class="product-image">
-                                              <a href="single-product.html">
+                                              <a href="/single-product">
                                                   <img class="primary-image" src="/assets/img/product/17.jpg" alt="">
                                               </a>
                                           </div>
@@ -408,8 +394,8 @@
                                                           <li class="no-star"><i class="fa fa-star"></i></li>
                                                       </ul>
                                                   </div>
-                                                  <h4><a class="product_name" href="single-product.html">Brand FREE RN FLYKNIT</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
+                                                  <h4><a class="product_name" href="/single-product">Brand FREE RN FLYKNIT</a></h4>
+                                                  <div class="manufacturer"><a href="/single-product">Fashion Manufacturer</a></div>
                                                   <div class="price-box">
                                                       <span class="new-price">$150.00</span>
                                                       <span class="old-price">$180.00</span>
@@ -419,7 +405,7 @@
                                                   <ul class="add-actions-link">
                                                       <li class="add-cart"><a href="#"><i class="ion-android-cart"></i> Add to cart</a></li>
                                                       <li><a class="quick-view" data-toggle="modal" data-target="#exampleModalCenter" href="#"><i class="ion-android-open"></i></a></li>
-                                                      <li><a class="links-details" href="single-product.html"><i class="ion-clipboard"></i></a></li>
+                                                      <li><a class="links-details" href="/single-product"><i class="ion-clipboard"></i></a></li>
                                                   </ul>
                                               </div>
                                           </div>
@@ -430,7 +416,7 @@
                                       <!-- single-product-wrap start -->
                                       <div class="single-product-wrap">
                                           <div class="product-image">
-                                              <a href="single-product.html">
+                                              <a href="/single-product">
                                                   <img class="primary-image" src="/assets/img/product/18.jpg" alt="">
                                               </a>
                                           </div>
@@ -445,8 +431,8 @@
                                                           <li class="no-star"><i class="fa fa-star"></i></li>
                                                       </ul>
                                                   </div>
-                                                  <h4><a class="product_name" href="single-product.html">Brand FREE RN FLYKNIT</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
+                                                  <h4><a class="product_name" href="/single-product">Brand FREE RN FLYKNIT</a></h4>
+                                                  <div class="manufacturer"><a href="/single-product">Fashion Manufacturer</a></div>
                                                   <div class="price-box">
                                                       <span class="new-price">$150.00</span>
                                                       <span class="old-price">$180.00</span>
@@ -456,7 +442,7 @@
                                                   <ul class="add-actions-link">
                                                       <li class="add-cart"><a href="#"><i class="ion-android-cart"></i> Add to cart</a></li>
                                                       <li><a class="quick-view" data-toggle="modal" data-target="#exampleModalCenter" href="#"><i class="ion-android-open"></i></a></li>
-                                                      <li><a class="links-details" href="single-product.html"><i class="ion-clipboard"></i></a></li>
+                                                      <li><a class="links-details" href="/single-product"><i class="ion-clipboard"></i></a></li>
                                                   </ul>
                                               </div>
                                           </div>
@@ -467,7 +453,7 @@
                                       <!-- single-product-wrap start -->
                                       <div class="single-product-wrap">
                                           <div class="product-image">
-                                              <a href="single-product.html">
+                                              <a href="/single-product">
                                                   <img class="primary-image" src="/assets/img/product/20.jpg" alt="">
                                               </a>
                                           </div>
@@ -482,8 +468,8 @@
                                                           <li class="no-star"><i class="fa fa-star"></i></li>
                                                       </ul>
                                                   </div>
-                                                  <h4><a class="product_name" href="single-product.html">Brand RN FLYKNIT</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
+                                                  <h4><a class="product_name" href="/single-product">Brand RN FLYKNIT</a></h4>
+                                                  <div class="manufacturer"><a href="/single-product">Fashion Manufacturer</a></div>
                                                   <div class="price-box">
                                                       <span class="new-price">$150.00</span>
                                                       <span class="old-price">$180.00</span>
@@ -493,7 +479,7 @@
                                                   <ul class="add-actions-link">
                                                       <li class="add-cart"><a href="#"><i class="ion-android-cart"></i> Add to cart</a></li>
                                                       <li><a class="quick-view" data-toggle="modal" data-target="#exampleModalCenter" href="#"><i class="ion-android-open"></i></a></li>
-                                                      <li><a class="links-details" href="single-product.html"><i class="ion-clipboard"></i></a></li>
+                                                      <li><a class="links-details" href="/single-product"><i class="ion-clipboard"></i></a></li>
                                                   </ul>
                                               </div>
                                           </div>
@@ -504,7 +490,7 @@
                                       <!-- single-product-wrap start -->
                                       <div class="single-product-wrap">
                                           <div class="product-image">
-                                              <a href="single-product.html">
+                                              <a href="/single-product">
                                                   <img class="primary-image" src="/assets/img/product/19.jpg" alt="">
                                               </a>
                                           </div>
@@ -519,8 +505,8 @@
                                                           <li class="no-star"><i class="fa fa-star"></i></li>
                                                       </ul>
                                                   </div>
-                                                  <h4><a class="product_name" href="single-product.html">FREE RN FLYKNIT link</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
+                                                  <h4><a class="product_name" href="/single-product">FREE RN FLYKNIT link</a></h4>
+                                                  <div class="manufacturer"><a href="/single-product">Fashion Manufacturer</a></div>
                                                   <div class="price-box">
                                                       <span class="new-price">$150.00</span>
                                                       <span class="old-price">$180.00</span>
@@ -530,7 +516,7 @@
                                                   <ul class="add-actions-link">
                                                       <li class="add-cart"><a href="#"><i class="ion-android-cart"></i> Add to cart</a></li>
                                                       <li><a class="quick-view" data-toggle="modal" data-target="#exampleModalCenter" href="#"><i class="ion-android-open"></i></a></li>
-                                                      <li><a class="links-details" href="single-product.html"><i class="ion-clipboard"></i></a></li>
+                                                      <li><a class="links-details" href="/single-product"><i class="ion-clipboard"></i></a></li>
                                                   </ul>
                                               </div>
                                           </div>
@@ -541,7 +527,7 @@
                                       <!-- single-product-wrap start -->
                                       <div class="single-product-wrap">
                                           <div class="product-image">
-                                              <a href="single-product.html">
+                                              <a href="/single-product">
                                                   <img class="primary-image" src="/assets/img/product/3.jpg" alt="">
                                                   <img class="secondary-image" src="/assets/img/product/4.jpg" alt="">
                                               </a>
@@ -558,8 +544,8 @@
                                                           <li class="no-star"><i class="fa fa-star"></i></li>
                                                       </ul>
                                                   </div>
-                                                  <h4><a class="product_name" href="single-product.html">Air Jordan XI Retro</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
+                                                  <h4><a class="product_name" href="/single-product">Air Jordan XI Retro</a></h4>
+                                                  <div class="manufacturer"><a href="/single-product">Fashion Manufacturer</a></div>
                                                   <div class="price-box">
                                                       <span class="new-price">$225.00</span>
                                                       <span class="old-price">$250.00</span>
@@ -569,159 +555,7 @@
                                                   <ul class="add-actions-link">
                                                       <li class="add-cart"><a href="#"><i class="ion-android-cart"></i> Add to cart</a></li>
                                                       <li><a class="quick-view" data-toggle="modal" data-target="#exampleModalCenter" href="#"><i class="ion-android-open"></i></a></li>
-                                                      <li><a class="links-details" href="single-product.html"><i class="ion-clipboard"></i></a></li>
-                                                  </ul>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <!-- single-product-wrap end -->
-                                  </div>
-                                  <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mt-40">
-                                      <!-- single-product-wrap start -->
-                                      <div class="single-product-wrap">
-                                          <div class="product-image">
-                                              <a href="single-product.html">
-                                                  <img class="primary-image" src="/assets/img/product/9.jpg" alt="">
-                                                  <img class="secondary-image" src="/assets/img/product/10.jpg" alt="">
-                                              </a>
-                                              <div class="label-product">-10% off</div>
-                                          </div>
-                                          <div class="product_desc">
-                                              <div class="product_desc_info">
-                                                  <div class="rating-box">
-                                                      <ul class="rating">
-                                                          <li><i class="fa fa-star"></i></li>
-                                                          <li><i class="fa fa-star"></i></li>
-                                                          <li><i class="fa fa-star"></i></li>
-                                                          <li class="no-star"><i class="fa fa-star"></i></li>
-                                                          <li class="no-star"><i class="fa fa-star"></i></li>
-                                                      </ul>
-                                                  </div>
-                                                  <h4><a class="product_name" href="single-product.html">Brand Zoom KDX EP</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
-                                                  <div class="price-box">
-                                                      <span class="new-price">$270.00</span>
-                                                      <span class="old-price">$300.00</span>
-                                                  </div>
-                                              </div>
-                                              <div class="add-actions">
-                                                  <ul class="add-actions-link">
-                                                      <li class="add-cart"><a href="#"><i class="ion-android-cart"></i> Add to cart</a></li>
-                                                      <li><a class="quick-view" data-toggle="modal" data-target="#exampleModalCenter" href="#"><i class="ion-android-open"></i></a></li>
-                                                      <li><a class="links-details" href="single-product.html"><i class="ion-clipboard"></i></a></li>
-                                                  </ul>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <!-- single-product-wrap end -->
-                                  </div>
-                                  <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mt-40">
-                                      <!-- single-product-wrap start -->
-                                      <div class="single-product-wrap">
-                                          <div class="product-image">
-                                              <a href="single-product.html">
-                                                  <img class="primary-image" src="/assets/img/product/11.jpg" alt="">
-                                                  <img class="secondary-image" src="/assets/img/product/12.jpg" alt="">
-                                              </a>
-                                              <div class="label-product">-10% off</div>
-                                          </div>
-                                          <div class="product_desc">
-                                              <div class="product_desc_info">
-                                                  <div class="rating-box">
-                                                      <ul class="rating">
-                                                          <li><i class="fa fa-star"></i></li>
-                                                          <li><i class="fa fa-star"></i></li>
-                                                          <li><i class="fa fa-star"></i></li>
-                                                          <li><i class="fa fa-star"></i></li>
-                                                          <li class="no-star"><i class="fa fa-star"></i></li>
-                                                      </ul>
-                                                  </div>
-                                                  <h4><a class="product_name" href="single-product.html">Brand FREE RN 2018</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
-                                                  <div class="price-box">
-                                                      <span class="new-price">$225.00</span>
-                                                      <span class="old-price">$250.00</span>
-                                                  </div>
-                                              </div>
-                                              <div class="add-actions">
-                                                  <ul class="add-actions-link">
-                                                      <li class="add-cart"><a href="#"><i class="ion-android-cart"></i> Add to cart</a></li>
-                                                      <li><a class="quick-view" data-toggle="modal" data-target="#exampleModalCenter" href="#"><i class="ion-android-open"></i></a></li>
-                                                      <li><a class="links-details" href="single-product.html"><i class="ion-clipboard"></i></a></li>
-                                                  </ul>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <!-- single-product-wrap end -->
-                                  </div>
-                                  <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mt-40">
-                                      <!-- single-product-wrap start -->
-                                      <div class="single-product-wrap">
-                                          <div class="product-image">
-                                              <a href="single-product.html">
-                                                  <img class="primary-image" src="/assets/img/product/4.jpg" alt="">
-                                              </a>
-                                          </div>
-                                          <div class="product_desc">
-                                              <div class="product_desc_info">
-                                                  <div class="rating-box">
-                                                      <ul class="rating">
-                                                          <li class="no-star"><i class="fa fa-star"></i></li>
-                                                          <li class="no-star"><i class="fa fa-star"></i></li>
-                                                          <li class="no-star"><i class="fa fa-star"></i></li>
-                                                          <li class="no-star"><i class="fa fa-star"></i></li>
-                                                          <li class="no-star"><i class="fa fa-star"></i></li>
-                                                      </ul>
-                                                  </div>
-                                                  <h4><a class="product_name" href="single-product.html">Brand FREE RN FLYKNIT</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
-                                                  <div class="price-box">
-                                                      <span class="new-price">$150.00</span>
-                                                      <span class="old-price">$180.00</span>
-                                                  </div>
-                                              </div>
-                                              <div class="add-actions">
-                                                  <ul class="add-actions-link">
-                                                      <li class="add-cart"><a href="#"><i class="ion-android-cart"></i> Add to cart</a></li>
-                                                      <li><a class="quick-view" data-toggle="modal" data-target="#exampleModalCenter" href="#"><i class="ion-android-open"></i></a></li>
-                                                      <li><a class="links-details" href="single-product.html"><i class="ion-clipboard"></i></a></li>
-                                                  </ul>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <!-- single-product-wrap end -->
-                                  </div>
-                                  <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mt-40">
-                                      <!-- single-product-wrap start -->
-                                      <div class="single-product-wrap">
-                                          <div class="product-image">
-                                              <a href="single-product.html">
-                                                  <img class="primary-image" src="/assets/img/product/6.jpg" alt="">
-                                              </a>
-                                          </div>
-                                          <div class="product_desc">
-                                              <div class="product_desc_info">
-                                                  <div class="rating-box">
-                                                      <ul class="rating">
-                                                          <li><i class="fa fa-star"></i></li>
-                                                          <li><i class="fa fa-star"></i></li>
-                                                          <li><i class="fa fa-star"></i></li>
-                                                          <li><i class="fa fa-star"></i></li>
-                                                          <li><i class="fa fa-star"></i></li>
-                                                      </ul>
-                                                  </div>
-                                                  <h4><a class="product_name" href="single-product.html">Brand REACT HYPERDUNK</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
-                                                  <div class="price-box">
-                                                      <span class="new-price">$220.00</span>
-                                                      <span class="old-price">$240.00</span>
-                                                  </div>
-                                              </div>
-                                              <div class="add-actions">
-                                                  <ul class="add-actions-link">
-                                                      <li class="add-cart"><a href="#"><i class="ion-android-cart"></i> Add to cart</a></li>
-                                                      <li><a class="quick-view" data-toggle="modal" data-target="#exampleModalCenter" href="#"><i class="ion-android-open"></i></a></li>
-                                                      <li><a class="links-details" href="single-product.html"><i class="ion-clipboard"></i></a></li>
+                                                      <li><a class="links-details" href="/single-product"><i class="ion-clipboard"></i></a></li>
                                                   </ul>
                                               </div>
                                           </div>
@@ -737,7 +571,7 @@
                                   <div class="row product-layout-list">
                                       <div class="col-lg-4 col-md-5 ">
                                           <div class="product-image">
-                                              <a href="single-product.html">
+                                              <a href="/single-product">
                                                   <img alt="" src="/assets/img/product/7.jpg" class="primary-image">
                                               </a>
                                           </div>
@@ -754,8 +588,8 @@
                                                           <li class="no-star"><i class="fa fa-star"></i></li>
                                                       </ul>
                                                   </div>
-                                                  <h4><a href="single-product.html" class="product_name">Brand FREE RN FLYKNIT</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
+                                                  <h4><a href="/single-product" class="product_name">Brand FREE RN FLYKNIT</a></h4>
+                                                  <div class="manufacturer"><a href="/single-product">Fashion Manufacturer</a></div>
                                                   <div class="price-box">
                                                       <span class="new-price">$150.00</span>
                                                       <span class="old-price">$180.00</span>
@@ -765,7 +599,7 @@
                                                       <ul>
                                                           <li class="add-cart"><a href="#">Add to cart</a></li>
                                                           <li><a href="#" data-target="#exampleModalCenter" data-toggle="modal" class="quick-view"><i class="ion-android-open"></i></a></li>
-                                                          <li><a href="single-product.html" class="links-details"><i class="ion-clipboard"></i></a></li>
+                                                          <li><a href="/single-product" class="links-details"><i class="ion-clipboard"></i></a></li>
                                                       </ul>
                                                   </div>
                                               </div>
@@ -775,7 +609,7 @@
                                   <div class="row product-layout-list">
                                       <div class="col-lg-4 col-md-5 ">
                                           <div class="product-image">
-                                              <a href="single-product.html">
+                                              <a href="/single-product">
                                                   <img alt="" src="/assets/img/product/7.jpg" class="primary-image">
                                               </a>
                                           </div>
@@ -792,8 +626,8 @@
                                                           <li class="no-star"><i class="fa fa-star"></i></li>
                                                       </ul>
                                                   </div>
-                                                  <h4><a href="single-product.html" class="product_name">Brand FREE RN FLYKNIT</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
+                                                  <h4><a href="/single-product" class="product_name">Brand FREE RN FLYKNIT</a></h4>
+                                                  <div class="manufacturer"><a href="/single-product">Fashion Manufacturer</a></div>
                                                   <div class="price-box">
                                                       <span class="new-price">$150.00</span>
                                                       <span class="old-price">$180.00</span>
@@ -803,7 +637,7 @@
                                                       <ul>
                                                           <li class="add-cart"><a href="#">Add to cart</a></li>
                                                           <li><a href="#" data-target="#exampleModalCenter" data-toggle="modal" class="quick-view"><i class="ion-android-open"></i></a></li>
-                                                          <li><a href="single-product.html" class="links-details"><i class="ion-clipboard"></i></a></li>
+                                                          <li><a href="/single-product" class="links-details"><i class="ion-clipboard"></i></a></li>
                                                       </ul>
                                                   </div>
                                               </div>
@@ -813,7 +647,7 @@
                                   <div class="row product-layout-list">
                                       <div class="col-lg-4 col-md-5 ">
                                           <div class="product-image">
-                                              <a href="single-product.html">
+                                              <a href="/single-product">
                                                   <img alt="" src="/assets/img/product/7.jpg" class="primary-image">
                                               </a>
                                           </div>
@@ -830,8 +664,8 @@
                                                           <li class="no-star"><i class="fa fa-star"></i></li>
                                                       </ul>
                                                   </div>
-                                                  <h4><a href="single-product.html" class="product_name">Brand FREE RN FLYKNIT</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
+                                                  <h4><a href="/single-product" class="product_name">Brand FREE RN FLYKNIT</a></h4>
+                                                  <div class="manufacturer"><a href="/single-product">Fashion Manufacturer</a></div>
                                                   <div class="price-box">
                                                       <span class="new-price">$150.00</span>
                                                       <span class="old-price">$180.00</span>
@@ -841,7 +675,7 @@
                                                       <ul>
                                                           <li class="add-cart"><a href="#">Add to cart</a></li>
                                                           <li><a href="#" data-target="#exampleModalCenter" data-toggle="modal" class="quick-view"><i class="ion-android-open"></i></a></li>
-                                                          <li><a href="single-product.html" class="links-details"><i class="ion-clipboard"></i></a></li>
+                                                          <li><a href="/single-product" class="links-details"><i class="ion-clipboard"></i></a></li>
                                                       </ul>
                                                   </div>
                                               </div>
@@ -851,7 +685,7 @@
                                   <div class="row product-layout-list">
                                       <div class="col-lg-4 col-md-5 ">
                                           <div class="product-image">
-                                              <a href="single-product.html">
+                                              <a href="/single-product">
                                                   <img alt="" src="/assets/img/product/7.jpg" class="primary-image">
                                               </a>
                                           </div>
@@ -868,8 +702,8 @@
                                                           <li class="no-star"><i class="fa fa-star"></i></li>
                                                       </ul>
                                                   </div>
-                                                  <h4><a href="single-product.html" class="product_name">Brand FREE RN FLYKNIT</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
+                                                  <h4><a href="/single-product" class="product_name">Brand FREE RN FLYKNIT</a></h4>
+                                                  <div class="manufacturer"><a href="/single-product">Fashion Manufacturer</a></div>
                                                   <div class="price-box">
                                                       <span class="new-price">$150.00</span>
                                                       <span class="old-price">$180.00</span>
@@ -879,7 +713,7 @@
                                                       <ul>
                                                           <li class="add-cart"><a href="#">Add to cart</a></li>
                                                           <li><a href="#" data-target="#exampleModalCenter" data-toggle="modal" class="quick-view"><i class="ion-android-open"></i></a></li>
-                                                          <li><a href="single-product.html" class="links-details"><i class="ion-clipboard"></i></a></li>
+                                                          <li><a href="/single-product" class="links-details"><i class="ion-clipboard"></i></a></li>
                                                       </ul>
                                                   </div>
                                               </div>
@@ -889,7 +723,7 @@
                                   <div class="row product-layout-list">
                                       <div class="col-lg-4 col-md-5 ">
                                           <div class="product-image">
-                                              <a href="single-product.html">
+                                              <a href="/single-product">
                                                   <img alt="" src="/assets/img/product/7.jpg" class="primary-image">
                                               </a>
                                           </div>
@@ -906,8 +740,8 @@
                                                           <li class="no-star"><i class="fa fa-star"></i></li>
                                                       </ul>
                                                   </div>
-                                                  <h4><a href="single-product.html" class="product_name">Brand FREE RN FLYKNIT</a></h4>
-                                                  <div class="manufacturer"><a href="single-product.html">Fashion Manufacturer</a></div>
+                                                  <h4><a href="/single-product" class="product_name">Brand FREE RN FLYKNIT</a></h4>
+                                                  <div class="manufacturer"><a href="/single-product">Fashion Manufacturer</a></div>
                                                   <div class="price-box">
                                                       <span class="new-price">$150.00</span>
                                                       <span class="old-price">$180.00</span>
@@ -917,7 +751,7 @@
                                                       <ul>
                                                           <li class="add-cart"><a href="#">Add to cart</a></li>
                                                           <li><a href="#" data-target="#exampleModalCenter" data-toggle="modal" class="quick-view"><i class="ion-android-open"></i></a></li>
-                                                          <li><a href="single-product.html" class="links-details"><i class="ion-clipboard"></i></a></li>
+                                                          <li><a href="/single-product" class="links-details"><i class="ion-clipboard"></i></a></li>
                                                       </ul>
                                                   </div>
                                               </div>
