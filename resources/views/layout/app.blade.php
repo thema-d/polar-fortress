@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Login And Register || Juta - Ecommerce Bootstrap 4 Template</title>
+    <title>@yield('title', 'Juta Online Shoe Store')</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Place favicon.ico in the root directory -->
@@ -133,30 +133,6 @@
                 <div class="searchbox">
                   <form action="#">
                     <div class="search-form-input">
-                      <select id="select" name="select" class="nice-select">
-                        <option value="">All Categories</option>
-                        <option value="12">Uncategorized</option>
-                        <option value="22">Electronics</option>
-                        <option value="26">Accessories</option>
-                        <option value="27">Cap HDMI</option>
-                        <option value="28">Headphone</option>
-                        <option value="29">Keyboard</option>
-                        <option value="23">Mouse</option>
-                        <option value="30">Laptops & Tablets</option>
-                        <option value="31">Laptop</option>
-                        <option value="31">Macbook</option>
-                        <option value="31">Smartphone</option>
-                        <option value="31">Tablets</option>
-                        <option value="32">Tvs & Audios</option>
-                        <option value="33">Amply</option>
-                        <option value="24">Smart TV</option>
-                        <option value="34">Speaker</option>
-                        <option value="35">TV</option>
-                        <option value="36">Fashion & Jewelry</option>
-                        <option value="37">Accessories</option>
-                        <option value="25">Rings</option>
-                        <option value="38">Watches</option>
-                      </select>
                       <input
                         type="text"
                         placeholder="Enter your search key ... "

@@ -1,7 +1,7 @@
 @extends('layout.app') @section('bread_crumb')
 <ul class="breadcrumb-list">
   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-  <li class="breadcrumb-item active">Shop</li>
+  <li class="breadcrumb-item active">Product</li>
 </ul>
 @endsection @section('content')
 <!-- content-wraper start -->
