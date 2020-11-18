@@ -107,13 +107,6 @@
                         <li>
                           <div class="cart-subtotals">
                             <h5>
-                              Subtotal<span class="float-right">$698.00</span>
-                            </h5>
-                            <h5>
-                              Shipping<span class="float-right"> $7.00 </span>
-                            </h5>
-                            <h5>Taxes<span class="float-right">$0.00</span></h5>
-                            <h5>
                               Total<span class="float-right">$705.00</span>
                             </h5>
                           </div>
@@ -159,114 +152,12 @@
                   <nav>
                     <ul>
                       <li class="active">
-                        <a href="index.html"
-                          >Home <i class="ion-ios-arrow-down"></i
-                        ></a>
-                        <ul class="dropdown_menu">
-                          <li><a href="index.html">Home Page 1</a></li>
-                          <li><a href="index-2.html">Home Page 2</a></li>
-                          <li><a href="index-3.html">Home Page 3</a></li>
-                          <li><a href="index-4.html">Home Page 4</a></li>
-                        </ul>
-                      </li>
-                      <li>
                         <a href="#"
-                          >Features<i class="ion-ios-arrow-down"></i
-                        ></a>
-                        <ul class="mega-menu">
-                          <li>
-                            <a href="#">Shop Page</a>
-                            <ul>
-                              <li><a href="shop.html">Shop Left</a></li>
-                              <li><a href="shop-right.html">Shop Right</a></li>
-                              <li>
-                                <a href="shop-fullwidth.html"
-                                  >Shop Full Width</a
-                                >
-                              </li>
-                              <li>
-                                <a href="single-product.html">Single Product</a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li>
-                            <a href="#">Blog Page</a>
-                            <ul>
-                              <li><a href="blog.html">Blog Left</a></li>
-                              <li><a href="blog-right.html">Blog Right</a></li>
-                              <li>
-                                <a href="blog-fullwidth.html"
-                                  >Blog Full Width</a
-                                >
-                              </li>
-                              <li>
-                                <a href="blog-details.html">Blog Details</a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li>
-                            <a href="#">Pages</a>
-                            <ul>
-                              <li><a href="my-account.html">My Account</a></li>
-                              <li>
-                                <a href="frequently-question.html">FAQ</a>
-                              </li>
-                              <li>
-                                <a href="login-register.html"
-                                  >Login & Register</a
-                                >
-                              </li>
-                              <li><a href="error404.html">Error 404</a></li>
-                            </ul>
-                          </li>
-                          <li>
-                            <a href="#">Column</a>
-                            <ul>
-                              <li><a href="about-us.html">About Us</a></li>
-                              <li><a href="checkout.html">Checkout</a></li>
-                              <li><a href="cart.html">Cart Page</a></li>
-                              <li><a href="wishlist.html">Wish List</a></li>
-                            </ul>
-                          </li>
-                        </ul>
+                          >Home</a>
                       </li>
-                      <li>
-                        <a href="#"
-                          >For women <i class="ion-ios-arrow-down"></i
-                        ></a>
-                        <ul class="mega-menu mega-menu-2">
-                          <li>
-                            <a href="#">Jackets</a>
-                            <ul>
-                              <li><a href="#">Florals</a></li>
-                              <li><a href="#">Shirts</a></li>
-                              <li><a href="#">Shorts</a></li>
-                              <li><a href="#">Stripes</a></li>
-                            </ul>
-                          </li>
-                          <li>
-                            <a href="#">Jeans</a>
-                            <ul>
-                              <li><a href="#">Hoodies</a></li>
-                              <li><a href="#">Sweaters</a></li>
-                              <li><a href="#">Vests</a></li>
-                              <li><a href="#">Wedges</a></li>
-                            </ul>
-                          </li>
-                          <li>
-                            <a href="#">Men</a>
-                            <ul>
-                              <li><a href="#">Crochet</a></li>
-                              <li><a href="#">Dresses</a></li>
-                              <li><a href="#">Jeans</a></li>
-                              <li><a href="#">Trousers</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                      <li><a href="shop.html">Shop</a></li>
-                      <li><a href="blog.html">Blog</a></li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="#">Men</a></li>
+                      <li><a href="#">Women</a></li>
+                      <li><a href="#">My Cart</a></li>
                     </ul>
                   </nav>
                 </div>
