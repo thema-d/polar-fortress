@@ -50,7 +50,7 @@ $( '.drodown-show > a,.shopping-cart li > a' ).on('click', function(e) {
     owl active
 --------------------------- */    
 $('.slider-active').owlCarousel({
-    loop:true,
+    loop:false,
     items:1,
     autoplay: false,
     dots:true,
