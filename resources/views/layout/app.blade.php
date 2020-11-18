@@ -39,7 +39,7 @@
               <div class="col-lg-3 col md-custom-12">
                 <!-- logo start -->
                 <div class="logo">
-                  <a href="index.html"
+                  <a href="/"
                     ><img src="/assets/img/logo.png" alt=""
                   /></a>
                 </div>
@@ -112,7 +112,7 @@
                           </div>
                         </li>
                         <li class="shoping-cart-btn">
-                          <a class="checkout-btn" href="checkout.html"
+                          <a class="checkout-btn" href="/checkout"
                             >checkout</a
                           >
                         </li>
