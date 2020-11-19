@@ -46,7 +46,8 @@ class ProductController extends Controller
      */
     public function show(Product $product)
     {
-        return view('product.single', ['product' => $product]);
+        $products = Product::all()->except($product->id)->take(6);
+        return view('product.single', ['product' => $product, 'products' => $products]);
     }
 
     /**

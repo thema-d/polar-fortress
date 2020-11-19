@@ -128,12 +128,14 @@
     <div class="row">
       <div class="col">
         <div class="section-title-3">
-          <h2>Same Category:</h2>
+          <h2>You may also like</h2>
         </div>
       </div>
     </div>
     <div class="row">
-      <x-product-item :product="$product" />
+      @foreach($products as $_product)
+        <x-product-item :product="$_product" />
+      @endforeach
     </div>
   </div>
 </div>
