@@ -4,9 +4,8 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 
-class ShoppingCartBox extends Component
+class Checkout extends Component
 {
-
     /**
      * List of all items in the cart
      *
@@ -21,8 +20,8 @@ class ShoppingCartBox extends Component
      *
      */
     protected $listeners = [
-        'item.added' => 'itemAdded',
-        'checkout.completed' => 'itemAdded',
+        'item.removed' => 'itemRemoved',
+        'checkout.completed' => 'itemRemoved'
     ];
 
     /**
@@ -36,31 +35,23 @@ class ShoppingCartBox extends Component
     }
 
     /**
-     * Fires when a new item is added to cart
+     * Fires when an item is removed from a cart
      *
      * @return void
      */
-    public function itemAdded()
+    public function itemRemoved()
     {
         $this->items = get_cart_content();
     }
 
     /**
-     * Removes item from a cart
-     *
-     * @param string $rowId
+     * Make payment and place user order
      *
      * @return void
      */
-    public function removeItemFromCart($rowId)
-    {
-        remove_item_from_cart($rowId);
-        $this->items = get_cart_content();
-        $this->emit('item.removed');
+    public function checkoutOrders() {
+        truncate_cart();
+        $this->emit('checkout.completed');
     }
-    
-    public function render()
-    {
-        return view('livewire.shopping-cart-box');
-    }
+
 }

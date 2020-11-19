@@ -63,9 +63,6 @@ function create_cart()
 {
     $identifier = get_identifier();
     Cart::instance($identifier);
-
-    // dump(get_identifier());
-    // dump(Cart::instance($identifier)->content($identifier));
 }
 
 /**
@@ -116,6 +113,15 @@ function remove_item_from_cart($item)
  */
 function get_cart_content() {
     return Cart::instance(get_identifier())->content();
+}
+
+/**
+ * Truncate the cart items
+ * 
+ * @return void
+ */
+function truncate_cart() {
+    Cart::instance(get_identifier())->destroy(get_identifier());
 }
 
 /**

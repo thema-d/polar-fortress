@@ -216,6 +216,7 @@
     <script src="/assets/js/ajax-email.js"></script>
     <script src="/assets/js/plugins.js"></script>
     <script src="/assets/js/notify.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- main JS -->
     <script src="/assets/js/main.js"></script>
     @livewireScripts
@@ -225,6 +226,14 @@
       });
       Livewire.on('item.removed', function() {
         $.notify("Item removed from cart!", {globalPosition: "top center", className: "error"});
+      });
+      Livewire.on('checkout.completed', function() {
+        swal({
+          title: "Congratulations!",
+          text: "Your package is on its way to you !",
+          icon: "success",
+          button: "Done",
+        });
       });
     </script>
   </body>
