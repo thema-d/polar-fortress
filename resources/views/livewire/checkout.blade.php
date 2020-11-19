@@ -95,7 +95,7 @@
             </div>
             <div class="col-lg-6 col-xl-5 col-sm-12">
               <div class="checkout-review-order">
-                <form action="#">
+                <div>
                   <h3 class="shoping-checkboxt-title">Your order</h3>
                   <table class="checkout-review-order-table">
                     <thead>
@@ -154,7 +154,7 @@
                       Continue to payment
                     </button>
                   </div>
-                </form>
+                </div>
               </div>
             </div>
           </div>
