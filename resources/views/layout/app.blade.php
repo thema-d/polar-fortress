@@ -60,12 +60,6 @@
                       </a>
                       <ul class="shopping-cart-wrapper">
                         <li>
-                          <div class="shoping-cart-image">
-                            <a href="#">
-                              <img src="/assets/img/small-product/1.jpg" alt="" />
-                              <span class="product-quantity">1x</span>
-                            </a>
-                          </div>
                           <div class="shoping-product-details">
                             <h3><a href="#">brand Free RN 2018</a></h3>
                             <div class="price-box">
@@ -83,12 +77,6 @@
                           </div>
                         </li>
                         <li>
-                          <div class="shoping-cart-image">
-                            <a href="#">
-                              <img src="/assets/img/small-product/2.jpg" alt="" />
-                              <span class="product-quantity">1x</span>
-                            </a>
-                          </div>
                           <div class="shoping-product-details">
                             <h3><a href="#">Product Free RN 2018</a></h3>
                             <div class="price-box">
@@ -210,17 +198,6 @@
         </div>
         <!-- header-bottom-area end -->
       </header>
-      <!-- breadcrumb-area start -->
-      <div class="breadcrumb-area bg-gray">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-12">
-              @yield('bread_crumb')
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- breadcrumb-area end -->
 
       <!-- content-wraper start -->
       @yield('content')

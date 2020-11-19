@@ -1,4 +1,4 @@
-<div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 mt-40">
+<div class="col-xl-2 col-lg-4 col-md-4 col-sm-6 mt-40">
   <!-- single-product-wrap start -->
   <div class="single-product-wrap">
     <div class="product-image">
