@@ -64,8 +64,8 @@ function create_cart()
     $identifier = get_identifier();
     Cart::instance($identifier);
 
-    dump(get_identifier());
-    dump(Cart::instance($identifier)->content($identifier));
+    // dump(get_identifier());
+    // dump(Cart::instance($identifier)->content($identifier));
 }
 
 /**
@@ -93,5 +93,36 @@ function get_identifier()
  */
 function add_item_to_cart($item)
 {
-    Cart::instance(get_identifier())->add($item);
+    $cartItem = Cart::instance(get_identifier())->add($item);
+    Cart::instance(get_identifier())->setDiscount($cartItem->rowId, $item->discount);
+}
+
+/**
+ * Add item to cart and save it
+ *
+ * @param string $identifier
+ *
+ * @return void
+ */
+function remove_item_from_cart($item)
+{
+    Cart::instance(get_identifier())->remove($item);
+}
+
+/**
+ * Returns all the items in the cart
+ * 
+ * @return object
+ */
+function get_cart_content() {
+    return Cart::instance(get_identifier())->content();
+}
+
+/**
+ * Returns a total of all the items in the cart
+ * 
+ * @return integer
+ */
+function get_cart_attr($field) {
+    return Cart::instance(get_identifier())->$field();
 }

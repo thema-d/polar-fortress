@@ -48,67 +48,7 @@
               </div>
               <div class="col-lg-9 md-custom-12">
                 <!-- shopping-cart-box start -->
-                <div class="shopping-cart-box">
-                  <ul>
-                    <li>
-                      <a href="#">
-                        <span class="item-cart-inner">
-                          <span class="item-cont">2</span>
-                          My Cart
-                        </span>
-                        <div class="item-total">$237.00</div>
-                      </a>
-                      <ul class="shopping-cart-wrapper">
-                        <li>
-                          <div class="shoping-product-details">
-                            <h3><a href="#">brand Free RN 2018</a></h3>
-                            <div class="price-box">
-                              <span>$230.00</span>
-                            </div>
-                            <div class="sizeandcolor">
-                              <span>Size: S</span>
-                              <span>Color: Orange</span>
-                            </div>
-                            <div class="remove">
-                              <button title="Remove">
-                                <i class="ion-android-delete"></i>
-                              </button>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="shoping-product-details">
-                            <h3><a href="#">Product Free RN 2018</a></h3>
-                            <div class="price-box">
-                              <span>$230.00</span>
-                            </div>
-                            <div class="sizeandcolor">
-                              <span>Size: S</span>
-                              <span>Color: Orange</span>
-                            </div>
-                            <div class="remove">
-                              <button title="Remove">
-                                <i class="ion-android-delete"></i>
-                              </button>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="cart-subtotals">
-                            <h5>
-                              Total<span class="float-right">$705.00</span>
-                            </h5>
-                          </div>
-                        </li>
-                        <li class="shoping-cart-btn">
-                          <a class="checkout-btn" href="/checkout"
-                            >checkout</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
+                <livewire:shopping-cart-box />
                 <!-- shopping-cart-box end -->
 
                 <!-- searchbox start -->

@@ -28,6 +28,7 @@ class ProductList extends Component
     public function addItemToCart(Product $product)
     {
         add_item_to_cart($product);
+        $this->emit('item.added');
     }
     
     public function render()

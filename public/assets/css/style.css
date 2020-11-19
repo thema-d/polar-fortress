@@ -582,7 +582,7 @@ body {
 .shopping-cart-wrapper > li {
   border-bottom: 1px solid #ededed;
   overflow: hidden;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .shopping-cart-wrapper {
   background: #ffffff none repeat scroll 0 0;
