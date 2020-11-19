@@ -21,7 +21,6 @@ class Checkout extends Component
      */
     protected $listeners = [
         'item.removed' => 'itemRemoved',
-        'checkout.completed' => 'itemRemoved'
     ];
 
     /**
@@ -52,6 +51,7 @@ class Checkout extends Component
     public function checkoutOrders() {
         truncate_cart();
         $this->emit('checkout.completed');
+        $this->items = get_cart_content();
     }
 
 }

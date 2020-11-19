@@ -21,6 +21,7 @@
 
 - [x] User should see product listing
 - [x] User should be able to add products to cart
+- [x] User can remove items from cart
 - [x] User should be able to checkout (no real operations behind)
 
 ## Digging in

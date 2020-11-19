@@ -150,7 +150,7 @@
                     </tfoot>
                   </table>
                   <div class="checkout-payment">
-                    <button wire:click="checkoutOrders" class="button-continue-payment">
+                    <button wire:click.prevent="checkoutOrders" class="button-continue-payment">
                       Continue to payment
                     </button>
                   </div>
