@@ -62,7 +62,7 @@ class ProductFactory extends Factory
             'gender' => $this->faker->randomElement(['MALE', 'FEMALE']),
             'available_amount' => $this->faker->numberBetween(10, 100),
             'rating' => $this->faker->numberBetween(10, 50) / 10, // 1.0 - 5.0
-            'discount' => $this->faker->boolean() ? $this->faker->numberBetween(1, 5) * 10 : null,
+            'discount' => $this->faker->boolean() ? $this->faker->numberBetween(1, 5) * 10 : 0,
         ];
     }
 }
