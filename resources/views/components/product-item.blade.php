@@ -22,14 +22,16 @@
           </ul>
         </div>
         <h4>
-          <a class="product_name" href="/single-product">Air Jordan XI Retro</a>
+          <a class="product_name" href="{{route('product.show', ['product' => $product->id ])}}">Air Jordan XI Retro</a>
         </h4>
         <div class="manufacturer">
-          <a href="/single-product">Fashion Manufacturer</a>
+          <a href="{{route('product.show', ['product' => $product->id ])}}">Fashion Manufacturer</a>
         </div>
         <div class="price-box">
-          <span class="new-price">$225.00</span>
-          <span class="old-price">$250.00</span>
+          <span class="new-price">{{ $formatPrice($product->discounted_price) }}</span>
+          @if($product->discount)
+          <span class="old-price">{{$formatPrice($product->price)}}</span>
+          @endif
         </div>
       </div>
       <div class="add-actions">
@@ -47,7 +49,7 @@
             ></a>
           </li>
           <li>
-            <a class="links-details" href="/single-product"
+            <a class="links-details" href="{{route('product.show', ['product' => $product->id ])}}"
               ><i class="ion-clipboard"></i
             ></a>
           </li>

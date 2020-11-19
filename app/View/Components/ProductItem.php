@@ -10,7 +10,7 @@ class ProductItem extends Component
 
     /**
      * A product being rendered
-     * 
+     *
      * @var \App\Models\Product
      */
     public $product;
@@ -23,6 +23,18 @@ class ProductItem extends Component
     public function __construct($product)
     {
         $this->product = $product;
+    }
+
+    /**
+     * Format a given price
+     *
+     * @var integer $amount The amount of the price in cents
+     *
+     * @return string The formatted string including dollar sign
+     */
+    public function formatPrice($amount)
+    {
+        return "$" . number_format($amount/100, 2);
     }
 
     /**

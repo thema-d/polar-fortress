@@ -18,4 +18,12 @@ class Product extends Model
         'images' => 'array',
         'sizes' => 'array',
     ];
+
+    /**
+     * Returns price after applying discount if there is any
+     */
+    public function getDiscountedPriceAttribute() {
+        if (!$this->discount) return $this->price;
+        return $this->price - ($this->price * $this->discount / 100);
+    }
 }
