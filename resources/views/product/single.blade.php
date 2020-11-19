@@ -59,9 +59,9 @@
                   </ul>
                 </div>
                 <div class="price-box">
-                  <span class="new-price">{{ formatPrice($product->discounted_price) }}</span>
+                  <span class="new-price">{{ format_price($product->discounted_price) }}</span>
                   @if($product->discount)
-                  <span class="old-price">{{ formatPrice($product->price)}}</span>
+                  <span class="old-price">{{ format_price($product->price)}}</span>
                   @endif
                 </div>
                 <p>
