@@ -15,7 +15,7 @@ class ProductList extends Component
     public $products = [];
 
     public function mount() {
-        $this->products = Product::all()->take(10);
+        $this->products = Product::all()->take(12);
     }
     
     public function render()

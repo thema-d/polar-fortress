@@ -22,7 +22,7 @@
           </ul>
         </div>
         <h4>
-          <a class="product_name" href="{{route('product.show', ['product' => $product->id ])}}">Air Jordan XI Retro</a>
+          <a class="product_name" href="{{route('product.show', ['product' => $product->id ])}}">{{ $product->name }}</a>
         </h4>
         <div class="manufacturer">
           <a href="{{route('product.show', ['product' => $product->id ])}}">
@@ -30,9 +30,9 @@
           </a>
         </div>
         <div class="price-box">
-          <span class="new-price">{{ $formatPrice($product->discounted_price) }}</span>
+          <span class="new-price">{{ formatPrice($product->discounted_price) }}</span>
           @if($product->discount)
-          <span class="old-price">{{$formatPrice($product->price)}}</span>
+          <span class="old-price">{{ formatPrice($product->price) }}</span>
           @endif
         </div>
       </div>

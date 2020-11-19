@@ -34,10 +34,10 @@ class ProductFactory extends Factory
             ],
             'medium' => collect(range(1, 20))->map(fn ($n) => "/assets/img/product/medium/$n.jpg")->toArray(),
             'large' => [
-                'assets/img/product/large/lg-product-1.jpg',
-                'assets/img/product/large/lg-product-2.jpg',
-                'assets/img/product/large/lg-product-3.jpg',
-                'assets/img/product/large/lg-product-4.jpg',
+                '/assets/img/product/large/lg-product-1.jpg',
+                '/assets/img/product/large/lg-product-2.jpg',
+                '/assets/img/product/large/lg-product-3.jpg',
+                '/assets/img/product/large/lg-product-4.jpg',
             ],
         ];
 
@@ -53,7 +53,7 @@ class ProductFactory extends Factory
         ];
 
         return [
-            'name' => $this->faker->name,
+            'name' => $this->faker->firstName . " " . $this->faker->safeColorName,
             'description' => $this->faker->sentence(7),
             'size' => $this->faker->randomElement(['SMALL', 'MEDIUM', 'LARGE']),
             'color' => $this->faker->safeColorName,

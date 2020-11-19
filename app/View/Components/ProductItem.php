@@ -26,18 +26,6 @@ class ProductItem extends Component
     }
 
     /**
-     * Format a given price
-     *
-     * @var integer $amount The amount of the price in cents
-     *
-     * @return string The formatted string including dollar sign
-     */
-    public function formatPrice($amount)
-    {
-        return "$" . number_format($amount/100, 2);
-    }
-
-    /**
      * Get the view / contents that represent the component.
      *
      * @return \Illuminate\Contracts\View\View|string
