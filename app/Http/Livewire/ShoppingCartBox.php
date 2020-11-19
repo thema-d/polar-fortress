@@ -31,7 +31,7 @@ class ShoppingCartBox extends Component
      */
     public function mount() {
         $this->items = get_cart_content();
-        dump($this->items);
+        // dump($this->items);
     }
 
     /**
@@ -53,6 +53,7 @@ class ShoppingCartBox extends Component
     public function removeItemFromCart($rowId) {
         remove_item_from_cart($rowId);
         $this->items = get_cart_content();
+        $this->emit('item.removed');
     }
     
     public function render()

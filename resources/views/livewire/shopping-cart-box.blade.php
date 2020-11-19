@@ -6,7 +6,7 @@
           @if($items->count())<span class="item-cont">{{ $items->count() }}</span>@endif
           My Cart
         </span>
-        <div class="item-total">$237.00</div>
+        <div class="item-total">{{ format_price(get_cart_attr('total')) }}</div>
       </a>
       <ul class="shopping-cart-wrapper">
         @foreach($items as $item)

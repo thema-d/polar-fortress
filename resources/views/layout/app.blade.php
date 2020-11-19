@@ -81,9 +81,6 @@
                   <nav>
                     <ul>
                       <li class="active"><a href="#">Home</a></li>
-                      <li><a href="#">Men</a></li>
-                      <li><a href="#">Women</a></li>
-                      <li><a href="#">My Cart</a></li>
                     </ul>
                   </nav>
                 </div>
@@ -218,8 +215,17 @@
     <script src="/assets/js/jquery.mainmenu.js"></script>
     <script src="/assets/js/ajax-email.js"></script>
     <script src="/assets/js/plugins.js"></script>
+    <script src="/assets/js/notify.min.js"></script>
     <!-- main JS -->
     <script src="/assets/js/main.js"></script>
     @livewireScripts
+    <script>
+      Livewire.on('item.added', function() {
+        $.notify("Item added to cart successfully!", {globalPosition: "top center", className: "success"});
+      });
+      Livewire.on('item.removed', function() {
+        $.notify("Item removed from cart!", {globalPosition: "top center", className: "error"});
+      });
+    </script>
   </body>
 </html>

@@ -11,7 +11,7 @@
 ---------------------------*/
 $('.notification-close button').on('click', function() {
     $('.notification-section').slideUp();
-});  
+});
 /*-----------------------
     jQuery MeanMenu
 ------------------------- */
