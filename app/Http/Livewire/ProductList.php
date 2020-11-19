@@ -27,7 +27,7 @@ class ProductList extends Component
 
     public function addItemToCart(Product $product)
     {
-        dd($product);
+        add_item_to_cart($product);
     }
     
     public function render()

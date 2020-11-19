@@ -62,9 +62,10 @@ function cart_exists($identifier)
 function create_cart()
 {
     $identifier = get_identifier();
-    Cart::instance($identifier)->restore($identifier);
+    Cart::instance($identifier);
+
     dump(get_identifier());
-    dump(Cart::content());
+    dump(Cart::instance($identifier)->content($identifier));
 }
 
 /**
@@ -92,10 +93,5 @@ function get_identifier()
  */
 function add_item_to_cart($item)
 {
-    // get already existing cart in database
-    // add new item to it
-    // save it back to database
-    if (!cart_exists($identifier)) {
-        Cart::store($identifier);
-    }
+    Cart::instance(get_identifier())->add($item);
 }
