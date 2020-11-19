@@ -4,58 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Product;
 use Illuminate\Http\Request;
-use Gloudemans\Shoppingcart\Cart;
 
 class ProductController extends Controller
 {
-
-    /**
-     * A cart instance to manage cart operations
-     *
-     * @var Gloudemans\Shoppingcart\Cart
-     */
-    protected $cart;
-
-    /**
-     * Init essential operations
-     *
-     * @return void
-     */
-    public function __construct(Cart $cart)
-    {
-        $this->cart = $cart;
-
-        $this->instantiateCart('my-cart-2');
-
-        $cartItem = $this->cart->add('293ad', 'Product 1', 1, 9.99, 0, ['size' => 'large']);
-        $this->persistCart('my-cart-2');
-    }
-
-    /**
-     * Instantiate a cart
-     *
-     * @param string $identifier
-     *
-     * @return void
-     */
-    private function instantiateCart($identifier = 'my-cart')
-    {
-        $this->cart->instance($identifier); // create a cart instance
-    }
-
-    /**
-     * Save or update a cart to database
-     *
-     * @param string $identifier
-     *
-     * @return void
-     */
-    private function persistCart($identifier = 'my-cart')
-    {
-        if (!cart_exists($identifier)) {
-            $this->cart->store($identifier);
-        }
-    }
 
     /**
      * Display a listing of the resource.

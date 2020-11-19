@@ -39,7 +39,10 @@
       <div class="add-actions">
         <ul class="add-actions-link">
           <li class="add-cart">
-            <a href="#"><i class="ion-android-cart"></i> Add to cart</a>
+            <a href='#' 
+              wire:click.prevent="addItemToCart({{$product->id}})">
+              <i class="ion-android-cart"></i> Add to cart
+            </a>
           </li>
         </ul>
       </div>

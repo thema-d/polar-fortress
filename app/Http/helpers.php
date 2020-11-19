@@ -51,3 +51,48 @@ function cart_exists($identifier)
         ->where('identifier', $identifier)
         ->exists();
 }
+
+/**
+ * Instantiate a cart
+ *
+ * @param string $identifier
+ *
+ * @return void
+ */
+function create_cart()
+{
+    Cart::instance(get_identifier()); // create a cart instance
+}
+
+/**
+ * Create or get a new identifier for current session
+ *
+ * @return string
+ */
+function get_identifier()
+{
+    $identifier = session('current_user_cart_id');
+
+    if (!$identifier) {
+        session(['current_user_cart_id' => Str::random(30)]);
+    }
+
+    return session('current_user_cart_id');
+}
+
+/**
+ * Add item to cart and save it
+ *
+ * @param string $identifier
+ *
+ * @return void
+ */
+function add_item_to_cart($identifier)
+{
+    // get already existing cart in database
+    // add new item to it
+    // save it back to database
+    if (!cart_exists($identifier)) {
+        Cart::store($identifier);
+    }
+}
