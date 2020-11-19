@@ -13,16 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::group(['namespace' => '\App\Http\Controllers' ], function() {
+Route::group(['namespace' => '\App\Http\Controllers' ], function () {
     Route::get('/', 'ProductController@index')->name('product.index');
 
     Route::get('/product/{product}', 'ProductController@show')->name('product.show');
 
     Route::get('checkout', function () {
         return view('product.checkout');
-    });
-
-    Route::get('my-cart', function() {
-        return view('product.cart');
-    });
+    })->name('checkout');
 });
