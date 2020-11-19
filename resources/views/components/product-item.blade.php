@@ -25,7 +25,9 @@
           <a class="product_name" href="{{route('product.show', ['product' => $product->id ])}}">Air Jordan XI Retro</a>
         </h4>
         <div class="manufacturer">
-          <a href="{{route('product.show', ['product' => $product->id ])}}">Fashion Manufacturer</a>
+          <a href="{{route('product.show', ['product' => $product->id ])}}">
+            {{ $product->description }}
+          </a>
         </div>
         <div class="price-box">
           <span class="new-price">{{ $formatPrice($product->discounted_price) }}</span>
@@ -38,20 +40,6 @@
         <ul class="add-actions-link">
           <li class="add-cart">
             <a href="#"><i class="ion-android-cart"></i> Add to cart</a>
-          </li>
-          <li>
-            <a
-              class="quick-view"
-              data-toggle="modal"
-              data-target="#exampleModalCenter"
-              href="#"
-              ><i class="ion-android-open"></i
-            ></a>
-          </li>
-          <li>
-            <a class="links-details" href="{{route('product.show', ['product' => $product->id ])}}"
-              ><i class="ion-clipboard"></i
-            ></a>
           </li>
         </ul>
       </div>

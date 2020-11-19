@@ -54,6 +54,7 @@ class ProductFactory extends Factory
 
         return [
             'name' => $this->faker->name,
+            'description' => $this->faker->sentence(7),
             'size' => $this->faker->randomElement(['SMALL', 'MEDIUM', 'LARGE']),
             'color' => $this->faker->safeColorName,
             'price' => $this->faker->numberBetween(100 * 100, 1000 * 100), // in cents
