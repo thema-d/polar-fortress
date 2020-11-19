@@ -14,7 +14,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //
+        // return response()->json(['what is with you?']);
+        return view('product.list');
     }
 
     /**
@@ -44,9 +45,9 @@ class ProductController extends Controller
      * @param  \App\Models\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function show(Product $product)
+    public function show()
     {
-        //
+        return view('product.single', ['product']);
     }
 
     /**

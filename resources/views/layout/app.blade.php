@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/css/responsive.css" />
     <script src="/assets/js/modernizr-2.8.3.min.js"></script>
+    @livewireStyles
   </head>
   <body>
     <!--[if lt IE 8]>
@@ -302,5 +303,6 @@
     <script src="/assets/js/plugins.js"></script>
     <!-- main JS -->
     <script src="/assets/js/main.js"></script>
+    @livewireScripts
   </body>
 </html>

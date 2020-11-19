@@ -38,8 +38,6 @@ class ProductFactory extends Factory
                 'assets/img/product/large/lg-product-2.jpg',
                 'assets/img/product/large/lg-product-3.jpg',
                 'assets/img/product/large/lg-product-4.jpg',
-                'assets/img/product/large/lg-product-5.png',
-                'assets/img/product/large/lg-product-6.png',
             ],
         ];
 
@@ -49,8 +47,8 @@ class ProductFactory extends Factory
          * @return array
          */
         $get_random_images = fn () => [
-            'small' => $this->faker->randomElements($images['small'], 1),
-            'medium' => $this->faker->randomElements($images['medium'], 1),
+            'small' => $this->faker->randomElements($images['small'], 2),
+            'medium' => $this->faker->randomElements($images['medium'], 2),
             'large' => $this->faker->randomElements($images['large'], 4),
         ];
 
