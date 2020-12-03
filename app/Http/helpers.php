@@ -95,7 +95,7 @@ function add_item_to_cart($item)
 }
 
 /**
- * Add item to cart and save it
+ * Remove an item from a cart
  *
  * @param string $identifier
  *
@@ -125,7 +125,9 @@ function truncate_cart() {
 }
 
 /**
- * Returns a total of all the items in the cart
+ * Calls a method and return it value on a cart
+ * 
+ * @param string $field
  * 
  * @return integer
  */
